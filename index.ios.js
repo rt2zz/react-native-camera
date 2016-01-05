@@ -16,6 +16,7 @@ var constants = {
 
 var Camera = React.createClass({
   propTypes: {
+    ...View.propTypes,
     aspect: PropTypes.oneOfType([
       PropTypes.string,
       PropTypes.number
